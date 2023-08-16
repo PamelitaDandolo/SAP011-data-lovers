@@ -2,11 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/><!-- configuração de media query-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon" alt="ícone" sizes="20x20"/>
+    <title>Aprenda a arte do Tarot</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+   <header>
+    <img class="logo" src="img/logo.png" id="logo" alt="logo">
+     <audio class="audio" id="audio" alt="audio" controls autoplay muted> <!-- como rodar várias músicas?-->
+      <source src="audio/Memphis Minnie   Hoodoo Lady Blue.mp3" type="audio/mpeg" id="hoodoo-song" alt="hoodoo-song"></source>
+      <source src="audio/Nina Simone   I put a spell on yo.mp3" type="audio/mpeg" id="spell-song"alt="spell-song"></source>
+     </audio>
+
+     <nav class="menu">
+       <a href="tarot-text.html" id="tarot-text" alt="tarot-text">Descubra o Tarot<a><!--chama para a página 
+        sobre tarot texto-->
+       <a href="index.html" id="back-home" alt="back-home">Home</a>
+     </nav>
+   </header>
+   
+<main>
+  <!-- container com caixa roxa + filtros e botão voltar-->>
+<section> </section> <!--mostrar os cards com uma id-->
+</main>
     <div id="root"></div>
+    <footer class="footer">
+      <p>Pamela Dándolo&copy; Luza Pedreira&copy; for Laboratória&copy; 2023 </p>
+    </footer> 
     <script src="main.js" type="module"></script>
   </body>
 </html>
