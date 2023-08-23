@@ -1,5 +1,5 @@
 import { example } from './data.js';
- import data from './data/tarot/tarot.js';
+import data from './data/tarot/tarot.js';
 
 console.log(example, data);
 
