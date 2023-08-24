@@ -7,6 +7,5 @@ let player = function(){
     //chamar pelo id
     
     }
-    
-    
-    //mostrar um card com todas as funcionalidades:
+//mostrar um card com todas as funcionalidades:
+
