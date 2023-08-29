@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon" alt="ícone" sizes="20x20"/>
+    <title>Aprenda a arte do Tarot</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="tarot-text.css"/>
+    
+  </head>
+
+  <body>
+    <header class="container-logo-menu">
+     <img class="logo" src="img/logo.png" id="logo" alt="logo">
+      <audio class="audio" id="audio" alt="audio" controls autoplay muted> <!-- como rodar várias músicas?-->
+       <source src="audio/Memphis Minnie   Hoodoo Lady Blue.mp3" type="audio/mpeg" id="hoodoo-song" alt="hoodoo-song"></source>
+       <source src="audio/Nina Simone   I put a spell on yo.mp3" type="audio/mpeg" id="spell-song"alt="spell-song"></source>
+      </audio>
+ 
+      <nav class="menu">
+        <li><a href="tarot-text.html" id="tarot-text" alt="tarot-text">Descubra o Tarot</a></li>
+        <li><a href="index.html" id="back-home" alt="back-home">Home</a></li>
+      </nav>
+    </header>
+
+<main>
+  <!-- container com caixa roxa + filtros e botão voltar-->
+ <section class="cards-container" id="cards-container">
+  <section class="flipper-card">
+    <!-- <script class="style-container"></script> -->
+    <section class="front">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/RWS_Tarot_00_Fool.jpg" class="card-img" alt="tarot card image">
+    </section><!--front-->
+    <section class="back">
+      <img src="img/back-card.jpeg" class="card-img" alt="back tarot card image">
+    </section><!--back-->
+  </section><!--flipper-card-->
+ </section> <!--cards-container-->
+
+
+
+<section class="filter-container">
+
+  <h3>Choose how to display cards here</h3>
+  <select type="numerical-order" id="value">
+    <option value="all">All the Cards</option>
+    <option value="ascending">Ascending Order</option>
+    <option value="descending">Descending Order</option>
+  </select>
+
+  <select type="arcane-filter" id="arcane-filter">
+    <option value="all">Arcanes</option>
+    <option value="major">Major Arcanes</option>
+    <option value="minor">Minor Arcanes</option>
+  </select>
+
+ <select type="tarot-deck" id="suit">
+    <option value="all">The Deck</option>
+    <option value="cups">Cups</option>
+    <option value="wands">Wands</option>
+    <option value="swords">Swords</option>
+    <option value="pentacle">Pentacles</option>
+  </select>
+
+</section>
+</main>
+<footer class="footer">
+  <ul class="links">
+  <li><a href="https://github.com/PamelitaDandolo" target="_blank"><img class="github-icon" src="img/github-icon.png">Pamela Dándolo</a></li>
+  <li><a href="https://github.com/Luzapedreira" target="_blank"><img class="github-icon" src="img/github-icon.png" >Luza Pedreira</a></li>
+  <li><a href="https://www.laboratoria.la/br" target="_blank">for Laboratória 2023</a></li>
+  </ul>
+</footer> 
+<script src="main.js" type="module"></script>
+<div id="root"></div>
+</body>
+</html>

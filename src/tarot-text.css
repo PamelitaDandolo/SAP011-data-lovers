@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+
+.logo{
+    height: 100px;
+    width:100px;
+    align:center;
+    margin-top: 0%;
+    margin-left: 5%;
+    }
+
+.container-logo-menu{ /* header*/
+    width: 100%;
+    height: 100px;
+    background-color: #1c0332;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 50px;
+    position: sticky;
+    top:0;
+    }
+    
+    menu{
+    display: inline-block;
+    padding: 10px 10px;
+    }
+    
+    .menu li{
+        display: inline-block;
+        margin: 0 20px;
+        }
+        
+        .menu li a{
+        text-decoration: none;
+        color: antiquewhite;
+        font-family: "Constantia";
+        font-size: 10px;
+        text-transform: uppercase;
+        padding: 2px 2px;
+        border-radius: 10px;
+        justify-content: space-around;
+        
+        }
+
+    .tarot-container{ 
+        display:flex;
+        background-color: #8c52ff;
+        padding: 40px;
+        align-items: center;
+        justify-content:center;
+        margin: 50px;
+        gap: 10px;
+        
+    }    
+      
+   .tarot-container #card-about{ /*medidas da carta*/
+    display: flex;
+    border:3px solid black;
+    max-width: 200px; /*não mexer nessa medida*/
+    margin-right: 10px;
+
+   }
+
+
+   .text-about h2{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    line-height:60px;
+   }
+
+   .text-about p{
+    text-align: left;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height:30px;
+   }
+
+   .wikipedia{
+    text-align: left;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    line-height:30px;
+   }
+
+.footer{
+    background-color: #1c0332;
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    }
+
+
+  
