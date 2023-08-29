@@ -42,3 +42,12 @@ console.log(data.default.cards);
 //     //chamar pelo idcha
 //mostrar um card com todas as funcionalidades:
 
+<<<<<<< HEAD
+=======
+let player = function(){
+    //chamar pelo id
+    
+    }
+//mostrar um card com todas as funcionalidades:
+
+>>>>>>> dev

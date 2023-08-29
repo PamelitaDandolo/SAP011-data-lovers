@@ -10,6 +10,8 @@ import { createDecipheriv } from "crypto";
 // estas funciones son de ejemplo
 >>>>>>> 7ad86f611598617442c5b8bdfa38bbc8cb7cb240
 
+import { createDecipheriv } from "crypto";
+
 export const example = () => {
   return 'example';
 };
@@ -18,6 +20,9 @@ export const anotherExample = () => {
   return 'OMG';
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dev
 
 
   //   <!--Lógica filtro Arcanos 
@@ -35,5 +40,8 @@ export const anotherExample = () => {
   //     return data.filter((baralho) => baralho.arcano === filter);
   //   }
   // };
+<<<<<<< HEAD
 =======
 >>>>>>> 7ad86f611598617442c5b8bdfa38bbc8cb7cb240
+=======
+>>>>>>> dev
