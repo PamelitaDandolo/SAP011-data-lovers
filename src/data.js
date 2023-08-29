@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //filtros por nome, por arcano, numeração maior menor viceversa
 
 // export{
@@ -5,6 +6,9 @@
 //   filterArcane,
 
 import { createDecipheriv } from "crypto";
+=======
+// estas funciones son de ejemplo
+>>>>>>> 7ad86f611598617442c5b8bdfa38bbc8cb7cb240
 
 export const example = () => {
   return 'example';
@@ -13,6 +17,7 @@ export const example = () => {
 export const anotherExample = () => {
   return 'OMG';
 };
+<<<<<<< HEAD
 
 
   //   <!--Lógica filtro Arcanos 
@@ -30,3 +35,5 @@ export const anotherExample = () => {
   //     return data.filter((baralho) => baralho.arcano === filter);
   //   }
   // };
+=======
+>>>>>>> 7ad86f611598617442c5b8bdfa38bbc8cb7cb240
