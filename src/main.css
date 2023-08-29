@@ -12,10 +12,10 @@
         top:60px; left:60px;
         justify-content: space-around;
         box-sizing: border-box;
-        width:500px;
-        height:400px;
+        width:600px;
+        height:500px;
         padding:30px;
-        border: 2px solid #1c0332; 
+        /* border: 2px solid #1c0332;  */
         background-color: blue;
         perspective: 1000px;
     }  
@@ -33,7 +33,7 @@
         transform: rotateY(180deg);
     }
 
-    .card-img{
+    .show-img{
         width:300px;
         height:400px;
         border-radius: 20px;
@@ -42,7 +42,6 @@
     }
 
     .front, .back{
-        
         position: absolute;
         width: 100%;
         height: 100%;
@@ -53,16 +52,9 @@
         transform: rotateY(180deg);
     }
 
-    /* .style-container{
-            display: flex;
-            border: 5px solid ;
-            padding: 10px;
-            border:3px solid black;
-            max-width: 200px; /*não mexer nessa medida
-            margin-right: 10px;*/
-    
 
-    img{
+    /* .show-img{
+
         width:300px;
         height:400px;
-    }
+    } */
