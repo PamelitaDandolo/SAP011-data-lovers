@@ -8,17 +8,20 @@ import * as data from './data/tarot/tarot.js' ;
 const cardsContainer = document.querySelector("#cards-container");//chamando pela classe usa o . e pelo id #
 const dataTarot = data.cards;
 function exposeCards(data){
-  const exposeCards = document.querySelector("#flipper-card");
+
+  const exposeCards = document.querySelector("#expose-card");
   exposeCards.innerHTML += "";
   data.forEach((dataTarot) => {
     const container = document.createElement("div");
-    container.classList.add("front");
-    const showCards = 
-  `<div class="show-img" style="background-image: url('${dataTarot.img}')"></div>`;
+    container.classList.add("show-img");
+    const showCards += 
+    `<div class="show-img">
+    <img src="${dataTarot.img}" alt="Card Image">
+    </div>`;
 
     container.innerHTML += showCards
     exposeCards.appendChild(container)
-
+    cardsContainer.innerHTML += container
 
 });
 }
