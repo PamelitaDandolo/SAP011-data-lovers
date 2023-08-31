@@ -16,7 +16,7 @@ function exposeCards(data){
     container.classList.add("show-img");
     const showCards = 
     `<div class="show-img">
-    <img src="${tarot.img}" alt="Card Image">
+    <img class="card-style" src="${tarot.img}" alt="Card Image">
     </div>`;
 
     container.innerHTML += showCards
