@@ -75,7 +75,8 @@ margin-top: 60px;
 width:300px;
 height:400px;
 padding:30px;
-border: 2px solid #1c0332;  
+border: 2px solid #1c0332;
+flex-direction: column;  
 
 }
 
