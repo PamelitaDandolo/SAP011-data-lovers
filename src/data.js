@@ -19,17 +19,17 @@ export const anotherExample = () => {
 
   //     <!--Lógica filtro Arcanos 
 //     export const searchArcano = (dataTarot, type) => {
-//     const filterType =  => baralho.type.toUpperCase().includes(type.toUpperCase());
+//     const filterType = ( baralho ) => baralho.type.toUpperCase().includes(type.toUpperCase());
 //     const filteredType = dataTarot.filter(filterArcano);
   
 //     return filteredArcano;
 //   } -->
 
 //   export const filterType = (data, filter) => {
-//     if (filter === "All") {
+//     if (filter === "all") {
 //       return data;
 //     } else {
-//       return data.filter((baralho) => baralho.arcano === filter);
+//       return data.filter((baralho) => baralho.type === filter);
 //     }
 //   };
 // MAIN
@@ -37,3 +37,5 @@ export const anotherExample = () => {
 // arcanosType.addEventListener('change', filtered);
 // function filtered() {
 //   const arcanosFiltered = arcanosType.value;
+
+// ordem numérica método sort
