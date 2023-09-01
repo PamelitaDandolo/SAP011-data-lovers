@@ -17,18 +17,23 @@ export const anotherExample = () => {
 
 
 
-  //   <!--Lógica filtro Arcanos 
-  //   export const searchArcano = (dataTarot, type) => {
-  //   const filterType =  => baralho.type.toUpperCase().includes(type.toUpperCase());
-  //   const filteredType = dataTarot.filter(filterArcano);
+  //     <!--Lógica filtro Arcanos 
+//     export const searchArcano = (dataTarot, type) => {
+//     const filterType =  => baralho.type.toUpperCase().includes(type.toUpperCase());
+//     const filteredType = dataTarot.filter(filterArcano);
   
-  //   return filteredArcano;
-  // } -->
+//     return filteredArcano;
+//   } -->
 
-  // export const filterType = (data, filter) => {
-  //   if (filter === "All") {
-  //     return data;
-  //   } else {
-  //     return data.filter((baralho) => baralho.arcano === filter);
-  //   }
-  // };
+//   export const filterType = (data, filter) => {
+//     if (filter === "All") {
+//       return data;
+//     } else {
+//       return data.filter((baralho) => baralho.arcano === filter);
+//     }
+//   };
+// MAIN
+//   const arcanosType = document.getElementById('arcane-filter');
+// arcanosType.addEventListener('change', filtered);
+// function filtered() {
+//   const arcanosFiltered = arcanosType.value;
