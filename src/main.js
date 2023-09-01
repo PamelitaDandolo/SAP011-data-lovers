@@ -31,3 +31,17 @@ window.addEventListener("load", () => {
   exposeCards(dataTarot)
 
 })
+
+//Filtros
+
+const arcaneType = document.getElementById('arcane-filter');
+arcanosType.addEventListener('change', filtered);
+function filtered() {
+const arcanosFiltered = arcanosType.value;
+}
+
+const typeSuit = document.getElementById('suit-filter');
+arcanosType.addEventListener('change', filtered);
+function filtered() {
+const suitsFiltered = suitType.value;
+}
