@@ -4,8 +4,7 @@
     box-sizing: border-box;
     
     }
-    
-    
+
      .cards-container{ /*container pai*/
         background-color: #8c52ff;
         display: flex;
@@ -66,4 +65,13 @@
     } */
 
 
- 
+ /*media query - responsividade*/
+
+    @media screen and (max-width: ){
+
+
+
+
+
+
+    }
