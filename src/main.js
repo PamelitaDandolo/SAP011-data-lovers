@@ -40,8 +40,8 @@ function filtered() {
 const arcanosFiltered = arcanosType.value;
 }
 
-const typeSuit = document.getElementById('suit-filter');
-arcanosType.addEventListener('change', filtered);
-function filtered() {
+const suitType = document.getElementById('suit-filter');
+suitType.addEventListener('change', filtered);
+function filteredSuits() {
 const suitsFiltered = suitType.value;
 }
