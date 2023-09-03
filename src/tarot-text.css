@@ -36,7 +36,7 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 0px 50px;
-    position: sticky;
+    position:sticky;
     top:0;
     }
     
@@ -64,20 +64,20 @@ body{
 
     .tarot-container{ 
         display:flex;
-        background-color: #8c52ff;
-        padding: 40px;
+        background-color: rgba(159, 95, 187, 0.8);
+        padding: 50px;
         align-items: center;
         justify-content:center;
-        margin: 50px;
-        gap: 10px;
+        margin: 100px;
+        gap: 2vw;
         
     }    
       
    .tarot-container #card-about{ /*medidas da carta*/
     display: flex;
     border:3px solid black;
-    max-width: 200px; /*não mexer nessa medida*/
-    margin-right: 10px;
+    max-width: 200px; 
+    box-shadow: 5px 5px 5px #0006;
 
    }
 
