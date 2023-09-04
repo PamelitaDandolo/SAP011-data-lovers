@@ -17,7 +17,7 @@ body{
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  
+   
 }
 
 .logo{
@@ -80,7 +80,6 @@ body{
     box-shadow: 5px 5px 5px #0006;
 
    }
-
 
    .text-about h2{
     text-align: center;
