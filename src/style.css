@@ -70,7 +70,6 @@ menu{
 }
 
 .filter-container{
-<<<<<<< HEAD
     background-color: rgba(34, 33, 33, 0.5);   
     margin-top: 150px;
     width:300px;
@@ -85,15 +84,6 @@ menu{
     row-gap: 30px;
     flex-grow: 1;
     flex-shrink: 1;
-=======
-box-sizing: border-box;
-margin-top: 60px;
-width:300px;
-height:400px;
-padding:30px;
-border: 2px solid #1c0332;
-flex-direction: column;  
->>>>>>> 71999ff179a58f5b714b59d25ccb83d188214fb9
 
 }
 
