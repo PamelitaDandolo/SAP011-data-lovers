@@ -14,7 +14,7 @@
 
   <body>
     <header class="container-logo-menu">
-     <img class="logo" src="img/logo.png" id="logo" alt="logo">
+      <a href="index.html" id="logo-home" alt="logo-home"><img class="logo" src="img/logo.png" id="logo" alt="logo"></a>
       <audio class="audio" id="audio" alt="audio" controls autoplay muted>
        <source src="audio/Nina Simone   I put a spell on yo.mp3" type="audio/mpeg" id="spell-song"alt="spell-song"></source>
       </audio>
@@ -26,58 +26,48 @@
     </header>
 
 <main>
-  <section class="cards-container" id="cards-container">
-   <section class="expose-card" id="expose-card">
-    <div class="show-img" alt="Card Image"></div>
-  </section>
-  </section>
-
-
-  
- <!-- 
-   <section class="flipper-card" id="flipper-card">
-    <section class="front">
-      <div class="show-img"></div>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/RWS_Tarot_00_Fool.jpg" class="card-img" alt="tarot card image"> 
-    </section>
-    <section class="back">
-      <img src="img/back-card.jpeg" class="card-img" alt="back tarot card image">
-    </section>
-     </section> 
-  -->
-
-
-
 <section class="filter-container">
 
   <h3>Choose how to display cards here</h3>
-  <select aria-label="order-filter" type="order-filter" id="order-filter">
+  <select name="numerical-order" type="numerical-order" id="numerical-order">
     <option value="all">All the Cards</option>
     <option value="ascending">Ascending Order</option>
     <option value="descending">Descending Order</option>
   </select>
 
-  <select aria-label="arcane-filter" type="arcane-filter" id="arcane-filter">
+  <select name="arcane-filter" type="arcane-filter" id="arcane-filter">
     <option value="all">Arcanes</option>
     <option value="major">Major Arcanes</option>
     <option value="minor">Minor Arcanes</option>
+    
   </select>
 
- <select aria-label="suit-filter" type="suit-filter" id="suit-filter">
-    <option value="all">Suit</option>
+ <select name="tarot-deck" type="tarot-deck" id="suit">
+    <option value="all">The Deck</option>
     <option value="cups">Cups</option>
     <option value="wands">Wands</option>
     <option value="swords">Swords</option>
     <option value="pentacle">Pentacles</option>
   </select>
+ 
+  <section><p id="statistics">These arcanes represents X % of the complete deck</p></section> <!--cálculo agregado-->
 
 </section>
+
+<section class="cards-container" id="cards-container">
+  <section class="expose-card" id="expose-card">
+   <div class="show-img" alt="Card Image"></div>
+ </section>
+ </section>
+
 </main>
+
+
 <footer class="footer">
   <ul class="links">
-  <li><a href="https://github.com/PamelitaDandolo" target="_blank"><img class="github-icon" src="img/github-icon.png">Pamela Dándolo</a></li>
-  <li><a href="https://github.com/Luzapedreira" target="_blank"><img class="github-icon" src="img/github-icon.png" >Luza Pedreira</a></li>
-  <li><a href="https://www.laboratoria.la/br" target="_blank">for Laboratória 2023</a></li>
+    <li><a href="https://github.com/PamelitaDandolo" target="_blank">Pamela Dándolo</a></li>
+    <li><a href="https://github.com/Luzapedreira" target="_blank">Luza Pedreira</a></li>
+    <li><a href="https://www.laboratoria.la/br" target="_blank">for Laboratória 2023</a></li>
   </ul>
 </footer> 
 <script src="main.js" type="module"></script>
