@@ -12,11 +12,12 @@
         justify-content: space-around;
         /* align-items: flex-start; */
         align-content: space-around;
-        position:fixed;
+        position:sticky;
         flex-wrap: wrap;
-        top:170px; left:450px;
-        width:1000px;
-        height:500px;
+        top:170px; 
+        /* left:450px; */
+        width:70vw; /*hv ou wv calcular proporções*/
+        /* height:100vw; */
         padding:30px;
         perspective: 1000px;
        
@@ -56,16 +57,14 @@
 
  /*media query - responsividade*/
 
- @media screen and (max-width: 796px) {
+ @media screen and (max-width: 480px) {
 
     .cards-container{ 
         justify-content: space-around;
         align-content: space-around;
-        position:fixed;
         flex-wrap: wrap;
-        top:170px; left:450px;
-        width:900px;
-        height:400px;
+        top:170px; 
+        width:100%;
         padding:30px;
         perspective: 900px;
        
@@ -84,10 +83,9 @@
     }
 
     .card-style{ /*formato das cartas*/
-        width: 190px;
-        height:290px;
+        width:100px;
+        height:190px;
         border-radius: 10px;
-       
         flex-grow: 1;
         flex-shrink: 1;
         
