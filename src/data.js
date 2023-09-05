@@ -11,9 +11,9 @@
 
 export const searchArcane = (dataTarot, type) => {
 const filterType = (cards) => cards.type.toUpperCase().includes(type.toUpperCase());
-const filteredType = dataTarot.filter(filterArcane);
+const filteredType = dataTarot.filter(filterType);
   
-return filteredArcano;
+return filteredType;
 } 
 
 export const typeFilter = (data, filter) => {
@@ -29,7 +29,7 @@ const filterSuit = (cards) => cards.suit.toUpperCase().includes(suit.toUpperCase
 const filteredSuit = dataTarot.filter(filterSuit);
   
 return filteredSuit;
-} -->
+} 
 
 export const suitType = (data, filter) => {
 if (filter === "all") {
