@@ -4,8 +4,7 @@
 
 import data from './data/tarot/tarot.js' ;
 
-//mostrar a carta no html - dentro da div acrescentar <p> para os dados 
-const cardsContainer = document.querySelector("#cards-container");//chamando pela classe usa o . e pelo id #
+const cardsContainer = document.querySelector("#cards-container");
 const dataTarot = data.cards;
 function exposeCards(data){
 
