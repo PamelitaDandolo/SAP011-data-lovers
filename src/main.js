@@ -1,4 +1,4 @@
-// import { 
+import { searchArcane, searchSuit, typeFilter } from './data.js'
 // searchByName,
 // filterArcane,
 
@@ -34,13 +34,17 @@ window.addEventListener("load", () => {
 //Filtros
 
 const arcaneType = document.getElementById('arcane-filter');
-arcanosType.addEventListener('change', filtered);
+arcaneType.addEventListener('change', filtered);
 function filtered() {
-const arcanosFiltered = arcanosType.value;
+  const arcaneSelected = arcaneType.value;
+  const arcaneFiltered = searchArcane(dataTarot,arcaneSelected)
+  exposeCards(arcaneFiltered)
 }
 
-const suitType = document.getElementById('suit-filter');
-suitType.addEventListener('change', filtered);
+const suitType = document.getElementById('tarot-deck');
+suitType.addEventListener('change', filteredSuits);
 function filteredSuits() {
-const suitsFiltered = suitType.value;
+  const suitsSelected = suitType.value;
+  const suitsFiltered = searchSuit(dataTarot,suitsSelected)
+  exposeCards(suitsFiltered)
 }
