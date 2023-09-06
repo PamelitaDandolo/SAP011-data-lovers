@@ -6,7 +6,26 @@
 //   return 'OMG';
 // };
 
-// ordem numérica método sort
+// ordem numérica método sort filtro
+// export const searchByCardValue = (dataTarot, value) =>{
+// const cardValue = (cards) => cards.value.sort(); 
+export const searchByCardValue = (cards, orderType) => { //oq vai ser ordenado, qual é a forma de ordenação
+    const cardValue =  cards.sort((a,b) => {
+//retornar todo o baralho
+if (a.value === b.value){
+    return 0;
+} else if(orderType === 'ascending'){ //ordem crescente
+    if (a.value > b.value){
+        return 1;
+    } 
+} else if(orderType === 'descending'){
+    if (a.value > b.value){
+        return -1;
+    }
+}
+
+return cardValue
+});
 
 
 export const searchArcane = (dataTarot, type) => {
@@ -45,6 +64,7 @@ export const searchSuit = (dataTarot, suit) => {
   return filteredSuit;
 }
 
+
 export const suitType = (data, filter) => {
   if (filter === "all") {
     return data;
@@ -59,6 +79,15 @@ export const suitType = (data, filter) => {
     });
   }
 };
+
+
+
+
+// cálculo agregado
+//porcentagem de arcanos maiores
+
+
+//porcentagem de arcanos menores
 
 
 // function ordenação(cards, value) {
