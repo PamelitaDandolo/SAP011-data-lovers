@@ -7,13 +7,13 @@
 // };
 
 // ordem numérica método sort filtro
-// export const searchByCardValue = (dataTarot, value) =>{
-// const cardValue = (cards) => cards.value.sort(); 
-export const searchByCardValue = (cards, orderType) => { //oq vai ser ordenado, qual é a forma de ordenação
+export const searchByCardValue = (dataTarot, value) =>{
+const cardValue = (cards) => cards.value.sort(); 
+const searchByCardValue = (cards, orderType) => { //oq vai ser ordenado, qual é a forma de ordenação
     const cardValue =  cards.sort((a,b) => {
-//retornar todo o baralho
+
 if (a.value === b.value){
-    return 0;
+    return 0;//retornar todo o baralho
 } else if(orderType === 'ascending'){ //ordem crescente
     if (a.value > b.value){
         return 1;
@@ -28,6 +28,8 @@ return cardValue
 });
 
 
+
+//filtros de ordenação
 export const searchArcane = (dataTarot, type) => {
   const filterType = (cards) => cards.type.toUpperCase().includes(type.toUpperCase());
   const filteredType = dataTarot.filter(filterType);
@@ -43,11 +45,13 @@ export const typeFilter = (data, filter) => {
   }
 };
 
+
+//filtro por naipe
 export const searchSuit = (dataTarot, suit) => {
-  if (suit === "all") {
-    return dataTarot
+  if (suit === "all") { 
+    return dataTarot //select todas as cartas
   }
-  const filterSuit = (cards) => {
+  const filterSuit = (cards) => { //seleciona por naipe 
     if (cards.suit) {
 
       return cards.suit.toUpperCase().includes(suit.toUpperCase())
