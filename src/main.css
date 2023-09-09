@@ -23,7 +23,7 @@
        
         
     }  
-
+    
  
     #expose-card{ /*caixa onde estão as cartas*/
         display: flex;
@@ -97,8 +97,4 @@
 
     }
     
-<<<<<<< HEAD
  }
-=======
- }
->>>>>>> 419fa748d6a9cb879768e4143c0ef326f5014101
