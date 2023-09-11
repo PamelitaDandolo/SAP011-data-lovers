@@ -6,9 +6,6 @@
 //   return 'OMG';
 // };
 
-// ordem numérica método sort
-
-
 export const searchArcane = (dataTarot, type) => {
   if (type === "all") {
     return dataTarot
@@ -67,28 +64,3 @@ export const suitType = (data, filter) => {
 // export const calculoAgregado = (dois valores (baralho, id) => {
 //   return ((id / baralho * 100)).toFixed (para retornar uma string com 2 casas decimais(2);
 // }
-
-
-// function ordenação(cards, value) {
-//   const orderFilter = [...cards];
-//   if (value === "ascending") {
-//     orderFilter.sort(function (a, b) {
-//     return a.value - b.value; 
-//     });
-//   } else if (value === "descending") {
-//     orderFilter.sort(function (a, b) {
-//     return b.value - a.value; 
-//     });
-//   }
-//   return orderFilter;
-// }
-
-// const dataTarot = data.cards;
-// const numericalFilter = document.querySelectorAll(".order-filter");
-
-// numericalFilter.forEach((order) => {
-//   order.addEventListener("change", () => {
-//     const orderNumerical = ordenação(order.value, dataTarot);
-//     renderFilteredCards(orderNumerical);
-//   });
-// });
