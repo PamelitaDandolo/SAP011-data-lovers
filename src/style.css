@@ -87,7 +87,7 @@ main{
     padding:30px;
     top: 60px; left: 30px; 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items:center;
     position:sticky;
     flex-direction:column;
@@ -104,12 +104,14 @@ main{
 
 }
 
-#value {
+#numerical-order {
     padding: 5px;
     border-bottom: 5px solid #1c0332;
     color:#1c0332;
     height: 50px;
     width: 150px;
+    border-radius: 10px;
+    background-color:#d5baec
     
 }
 
@@ -119,15 +121,19 @@ main{
     color:#1c0332;
     height: 50px;
     width: 150px;
+    border-radius: 10px;
+    background-color:#d5baec
 
 }
 
-#suit{
+#tarot-deck{
     padding: 5px;
     border-bottom: 5px solid #1c0332;
     color:#1c0332;
     height: 50px;
     width: 150px;
+    border-radius: 10px;
+    background-color:#d5baec
  
 }
 
@@ -226,7 +232,7 @@ main{
        
     
     }
-    #value {
+    #numerical-order {
         padding: 3px;
         height: 40px;
         width: 100px;
@@ -240,7 +246,7 @@ main{
     
     }
     
-    #suit{
+    #tarot-deck{
         padding: 4px;
         height: 40px;
         width: 100px;
