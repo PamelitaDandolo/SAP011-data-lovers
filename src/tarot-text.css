@@ -1,9 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    }
-    
+}
+
 
 html {
     box-sizing: border-box;
@@ -13,22 +13,23 @@ html {
     margin: 0;
 }
 
-body{
+body {
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
-   
+
 }
 
-.logo{
+.logo {
     height: 100px;
-    width:100px;
-    align-items:center;
+    width: 100px;
+    align-items: center;
     margin-top: 0%;
     margin-left: 5%;
-    }
+}
 
-.container-logo-menu{ /* header*/
+.container-logo-menu {
+    /* header*/
     width: 100%;
     height: 100px;
     background-color: #1c0332;
@@ -36,77 +37,78 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 0px 50px;
-    position:sticky;
-    top:0;
-    }
-    
-    menu{
+    position: sticky;
+    top: 0;
+}
+
+menu {
     display: inline-block;
     padding: 10px 10px;
-    }
-    
-    .menu li{
-        display: inline-block;
-        margin: 0 20px;
-        }
-        
-        .menu li a{
-        text-decoration: none;
-        color: antiquewhite;
-        font-family: "Constantia";
-        font-size: 10px;
-        text-transform: uppercase;
-        padding: 2px 2px;
-        border-radius: 10px;
-        justify-content: space-around;
-        
-        }
+}
 
-    .tarot-container{ 
-        display:flex;
-        background-color: rgba(159, 95, 187, 0.8);
-        padding: 50px;
-        align-items: center;
-        justify-content:center;
-        margin: 100px;
-        gap: 2vw;
-        
-    }    
-      
-   .tarot-container #card-about{ /*medidas da carta*/
+.menu li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: "Constantia";
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 2px 2px;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.tarot-container {
     display: flex;
-    border:3px solid black;
-    max-width: 200px; 
+    background-color: rgba(159, 95, 187, 0.8);
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    gap: 2vw;
+
+}
+
+.tarot-container #card-about {
+    /*medidas da carta*/
+    display: flex;
+    border: 3px solid black;
+    max-width: 200px;
     box-shadow: 5px 5px 5px #0006;
 
-   }
+}
 
-   .text-about h2{
+.text-about h2 {
     text-align: center;
     color: antiquewhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-    line-height:60px;
-   }
+    line-height: 60px;
+}
 
-   .text-about p{
+.text-about p {
     text-align: left;
     color: antiquewhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-    line-height:30px;
-   }
+    line-height: 30px;
+}
 
-   .wikipedia{
+.wikipedia {
     text-align: left;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     text-decoration: none;
-    line-height:30px;
-   }
+    line-height: 30px;
+}
 
-.footer{
+.footer {
     background-color: #1c0332;
     display: flex;
     justify-content: center;
@@ -114,5 +116,86 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
-    
+
+}
+
+
+
+/* media query  dispositivos móveis*/
+@media screen and (max-width: 480px) {
+
+    .container-logo-menu {
+        /* header*/
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 999;
     }
+
+    #logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .audio{
+        width: 60%;
+        height: 15%;
+        
+    }
+    
+    main{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .tarot-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 100px;
+        gap: 2vw;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    .tarot-container #card-about {
+        width:100px;
+        height:190px;
+        border-radius: 10px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-direction: column;
+
+    }
+
+    .text-about h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .text-about p {
+        text-align: left;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .wikipedia {
+        text-align: left;
+        font-size: 15px;
+        text-decoration: none;
+        line-height: 30px;
+    }
+
+    .footer {
+        justify-content: space-around;
+        padding: 10px 10px;
+        position: absolute;
+        width: 100%;
+        position: fixed;
+        align-items: center;
+
+    }
+
+}

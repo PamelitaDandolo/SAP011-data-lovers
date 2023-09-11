@@ -27,7 +27,6 @@
  
     #expose-card{ /*caixa onde estão as cartas*/
         display: flex;
-        background-color: blanchedalmond;
         width:100%;
         height:100%;
         flex-wrap:wrap;
@@ -72,7 +71,6 @@
 
  
     #expose-card{ /*caixa onde estão as cartas*/
-        background-color: blanchedalmond;
         width:90%;
         height:90%;
         flex-wrap:wrap;

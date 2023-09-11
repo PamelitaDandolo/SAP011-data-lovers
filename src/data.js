@@ -7,6 +7,25 @@
 // };
 
 
+export const searchArcane = (dataTarot, type) => {
+  if (type === "all") {
+    return dataTarot
+  }
+  const filterType = (cards) => cards.type.toUpperCase().includes(type.toUpperCase());
+  const filteredType = dataTarot.filter(filterType);
+
+  return filteredType;
+}
+
+export const typeFilter = (data, filter) => {
+  if (filter === "all") {
+    return data;
+  } else {
+    return data.filter((cards) => cards.type === filter);
+  }
+};
+
+
 
 // função do filtro por ordem crescente e decrescente
 // export const searchByCardValue = (dataTarot, value) =>{ //pq não tá brilhando?
@@ -31,60 +50,30 @@
 // });
 
 
-//função do filtro por arcano
-export const searchArcane = (dataTarot, type) => {
-  const filterType = (cards) => cards.type.toUpperCase().includes(type.toUpperCase());
-  const filteredType = dataTarot.filter(filterType);
 
-  return filteredType;
-}
-
-export const typeFilter = (data, filter) => {
-  if (filter === "all") {
-    return data;
-  } else {
-    return data.filter((cards) => cards.type === filter);
-  }
-  
-}
 
 
 //função do filtro por naipe
 export const searchSuit = (dataTarot, suit) => {
-  if (suit === "all") { 
-    return dataTarot //select todas as cartas
+
+  if (suit === "all") {
+    return dataTarot
   }
-  const filterSuit = (cards) => { //seleciona por naipe 
+  const filterSuit = (cards) => {
     if (cards.suit) {
+
       return cards.suit.toUpperCase().includes(suit.toUpperCase())
     }
 
+
     else {
+
+
       return false
     }
 
   };
   const filteredSuit = dataTarot.filter(filterSuit);
-
-  return filteredSuit;
-}
-
-
-export const suitType = (data, filter) => {
-  if (filter === "all") {
-    return data;
-  } else {
-    return data.filter((cards) => {
-      if (cards.suit) {
-        return cards.suit === filter
-      }
-      else {
-        return false
-      }
-    });
-  }
-};
-
 
 
 
@@ -109,11 +98,28 @@ export const suitType = (data, filter) => {
 //   return orderFilter;
 // }
 
-// const dataTarot = data.cards;
-// const numericalFilter = document.querySelectorAll(".order-filter");
 
-// numericalFilter.forEach((order) => {
-//   order.addEventListener("change", () => {
-//     const orderNumerical = ordenação(order.value, dataTarot);
-//     renderFilteredCards(orderNumerical);
-//   });
+  return filteredSuit;
+}
+
+
+export const suitType = (data, filter) => {
+  if (filter === "all") {
+    return data;
+  } else {
+    return data.filter((cards) => {
+      if (cards.suit) {
+        return cards.suit === filter
+      }
+      else {
+        return false
+      }
+    });
+  }
+};
+
+// Para inclusão do cálculo agregado
+// export const calculoAgregado = (dois valores (baralho, id) => {
+//   return ((id / baralho * 100)).toFixed (para retornar uma string com 2 casas decimais(2);
+// }
+
