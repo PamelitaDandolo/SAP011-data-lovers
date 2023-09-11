@@ -1,4 +1,4 @@
-import { searchArcane, searchSuit, suitType, searchByCardValue } from './data.js'
+import { searchArcane, searchSuit, orderCard } from './data.js'
 
 
 import data from './data/tarot/tarot.js' ;
@@ -37,8 +37,9 @@ window.addEventListener("load", () => {
 const cardValueSelection = document.getElementById("numerical-order");
 cardValueSelection.addEventListener("change", cardOrdenation); //evento mudar de ordenação
 function cardOrdenation() {
-  const cardSelected = cardValueSelection.value; //chamando a numeração da carta
-  const chooseCard = searchByCardValue(dataTarot,cardSelected)
+  const cardSelected = cardValueSelection.value; 
+  console.log(cardSelected)//chamando a numeração da carta
+  const chooseCard = orderCard(dataTarot,cardSelected)
   exposeCards(chooseCard)
 }
 
@@ -55,10 +56,10 @@ function filtered() {
 
 
 //chama o filtro por naipe
-const suitType = document.getElementById("tarot-deck"); 
-suitType.addEventListener("change", filteredSuits);
+const suitTypeSelect = document.getElementById("tarot-deck"); 
+suitTypeSelect.addEventListener("change", filteredSuits);
 function filteredSuits() {
-  const suitsSelected = suitType.value;
+  const suitsSelected = suitTypeSelect.value;
   const suitsFiltered = searchSuit(dataTarot,suitsSelected)
   exposeCards(suitsFiltered)
 }
