@@ -148,21 +148,6 @@ menu {
         flex-direction: column;
     }
 
-    /* menu {
-        display: inline-block;
-        padding: 10px 10px;
-    }
-
-    .menu li {
-        display: inline-block;
-        margin: 0 20px;
-    } */
-
-    /* .menu li a {
-        justify-content: space-around;
-
-    } */
-
     .tarot-container {
         display: flex;
         align-items: center;
@@ -170,39 +155,34 @@ menu {
         margin: 100px;
         gap: 2vw;
         flex-direction: column;
+        justify-content: flex-start;
 
     }
 
     .tarot-container #card-about {
-        /*medidas da carta*/
-        display: flex;
-        border: 3px solid black;
-        max-width: 200px;
-        box-shadow: 5px 5px 5px #0006;
-        justify-content: center;
+        width:100px;
+        height:190px;
+        border-radius: 10px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-direction: column;
 
     }
 
     .text-about h2 {
         text-align: center;
-        color: antiquewhite;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 30px;
         line-height: 60px;
     }
 
     .text-about p {
         text-align: left;
-        color: antiquewhite;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 18px;
         line-height: 30px;
     }
 
     .wikipedia {
         text-align: left;
-        color: black;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 15px;
         text-decoration: none;
         line-height: 30px;

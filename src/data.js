@@ -10,6 +10,9 @@
 
 
 export const searchArcane = (dataTarot, type) => {
+  if (type === "all") {
+    return dataTarot
+  }
   const filterType = (cards) => cards.type.toUpperCase().includes(type.toUpperCase());
   const filteredType = dataTarot.filter(filterType);
 
@@ -59,6 +62,11 @@ export const suitType = (data, filter) => {
     });
   }
 };
+
+// Para inclusão do cálculo agregado
+// export const calculoAgregado = (dois valores (baralho, id) => {
+//   return ((id / baralho * 100)).toFixed (para retornar uma string com 2 casas decimais(2);
+// }
 
 
 // function ordenação(cards, value) {
