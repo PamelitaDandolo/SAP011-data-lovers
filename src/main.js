@@ -1,4 +1,4 @@
-import { searchArcane, searchSuit, searchByCardValue } from './data.js'
+import { searchArcane, searchSuit, suitType, searchByCardValue } from './data.js'
 
 
 import data from './data/tarot/tarot.js' ;
