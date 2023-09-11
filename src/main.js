@@ -32,7 +32,7 @@ window.addEventListener("load", () => {
 
 
 //Filtro por ordenação crescente e decrescente
-const tarotValue = document.getElementById('numerical-order');
+// const tarotValue = document.getElementById('numerical-order');
 
 //chamar searchbycard...
 
