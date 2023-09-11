@@ -34,13 +34,14 @@ window.addEventListener("load", () => {
 
 
 //chama filtro de ordenação crescente decrescente
-// const cardValueSelection = document.getElementById("numerical-order");
-// cardValueSelection.addEventListener("change", cardOrdenation); //evento mudar de ordenação
-// function cardOrdenation() {
-//   const cardSelected = cardValueSelection.value; //chamando a numeração da carta
-//   const chooseCard = searchByCardValue(dataTarot,cardSelected)
-//   exposeCards(chooseCard)
-// }
+const cardValueSelection = document.getElementById("numerical-order");
+cardValueSelection.addEventListener("change", cardOrdenation); //evento mudar de ordenação
+function cardOrdenation() {
+  const cardSelected = cardValueSelection.value; //chamando a numeração da carta
+  const chooseCard = searchByCardValue(dataTarot,cardSelected)
+  exposeCards(chooseCard)
+}
+
 
 
 //chama o filtro por arcano
