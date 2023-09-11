@@ -7,25 +7,25 @@
 // };
 
 // ordem numérica método sort filtro
-// export const searchByCardValue = (dataTarot, value) =>{
-// const cardValue = (cards) => cards.value.sort(); 
-// const searchByCardValue = (cards, orderType) => { //oq vai ser ordenado, qual é a forma de ordenação
-//     const cardValue =  cards.sort((a,b) => {
+export const searchByCardValue = (dataTarot, value) =>{
+const cardValue = (cards) => cards.value.sort(); 
+const searchByCardValue = (cards, orderType) => { //oq vai ser ordenado, qual é a forma de ordenação
+    const cardValue =  cards.sort((a,b) => {
 
-// if (a.value === b.value){
-//     return 0;//retornar todo o baralho
-// } else if(orderType === 'ascending'){ //ordem crescente
-//     if (a.value > b.value){
-//         return 1;
-//     } 
-// } else if(orderType === 'descending'){
-//     if (a.value > b.value){
-//         return -1;
-//     }
-// }
+if (a.value === b.value){
+    return 0;//retornar todo o baralho
+} else if(orderType === 'ascending'){ //ordem crescente
+    if (a.value > b.value){
+        return 1;
+    } 
+} else if(orderType === 'descending'){
+    if (a.value > b.value){
+        return -1;
+    }
+}
 
-// return cardValue
-// });
+return cardValue
+});
 
 
 
