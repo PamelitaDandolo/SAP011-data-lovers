@@ -1,4 +1,4 @@
-import { searchArcane, searchSuit, typeFilter } from './data.js'
+import { searchArcane, searchSuit } from './data.js'
 // searchByName,
 // filterArcane,
 
