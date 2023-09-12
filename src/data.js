@@ -27,18 +27,19 @@ export const typeFilter = (data, filter) => {
 
 // função do filtro por ordem crescente e decrescente
 export const orderCard = (dataTarot, orderType) => {
- 
-  const cardOrderValue = dataTarot.sort((a, b) => {
+  const dataTarotCopy = [...dataTarot];
+
+  const cardOrderValue = dataTarotCopy.sort((a, b) => {
     if (a.value === b.value) {
       return 0; //retornar todo o baralho
     } else if (orderType === "ascending") {
       //ordem crescente
-      if (a.value < b.value) {
-        return -1;
+      if (a.value > b.value) {
+        return 1;
       }
     } else if (orderType === "descending") {
-      if (a.value < b.value) {
-        return 1;
+      if (a.value > b.value) {
+        return -1;
       }
     }
   });
