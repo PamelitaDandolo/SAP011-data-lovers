@@ -38,7 +38,6 @@ const cardValueSelection = document.getElementById("numerical-order");
 cardValueSelection.addEventListener("change", cardOrdenation); //evento mudar de ordenação
 function cardOrdenation() {
   const cardSelected = cardValueSelection.value; 
-  console.log(cardSelected)//chamando a numeração da carta
   const chooseCard = orderCard(dataTarot,cardSelected)
   exposeCards(chooseCard)
 }
