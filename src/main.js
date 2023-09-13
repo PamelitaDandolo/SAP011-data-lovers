@@ -1,4 +1,4 @@
-import { searchArcane, searchSuit, suitType, searchByCardValue } from './data.js'
+import { searchArcane, searchSuit, orderCard } from './data.js'
 
 
 import data from './data/tarot/tarot.js' ;
@@ -34,13 +34,14 @@ window.addEventListener("load", () => {
 
 
 //chama filtro de ordenação crescente decrescente
-// const cardValueSelection = document.getElementById("numerical-order");
-// cardValueSelection.addEventListener("change", cardOrdenation); //evento mudar de ordenação
-// function cardOrdenation() {
-//   const cardSelected = cardValueSelection.value; //chamando a numeração da carta
-//   const chooseCard = searchByCardValue(dataTarot,cardSelected)
-//   exposeCards(chooseCard)
-// }
+const cardValueSelection = document.getElementById("numerical-order");
+cardValueSelection.addEventListener("change", cardOrdenation); //evento mudar de ordenação
+function cardOrdenation() {
+  const cardSelected = cardValueSelection.value; 
+  const chooseCard = orderCard(dataTarot,cardSelected)
+  exposeCards(chooseCard)
+}
+
 
 
 //chama o filtro por arcano
@@ -54,10 +55,10 @@ function filtered() {
 
 
 //chama o filtro por naipe
-const suitType = document.getElementById("tarot-deck"); 
-suitType.addEventListener("change", filteredSuits);
+const suitTypeSelect = document.getElementById("tarot-deck"); 
+suitTypeSelect.addEventListener("change", filteredSuits);
 function filteredSuits() {
-  const suitsSelected = suitType.value;
+  const suitsSelected = suitTypeSelect.value;
   const suitsFiltered = searchSuit(dataTarot,suitsSelected)
   exposeCards(suitsFiltered)
 }
