@@ -1,4 +1,6 @@
+
 import { searchArcane, typeFilter, orderCard,  searchSuit } from "../src/data.js";
+
 
 const tarot = [
   {
@@ -26,6 +28,7 @@ const tarot = [
     name: "King of Cups",
   },
 ];
+
 
 //teste para busca por arcano
 describe("searchArcane", () => {
@@ -83,11 +86,13 @@ describe("orderCard", () => {
   });
 });
 
+
 //teste para busca por naipe
 describe("searchSuit", () => {
   it("is a function", () => {
     expect(typeof searchSuit).toBe("function");
   });
+
 
   it("returns `filter wands`", () => {
     expect(searchSuit(tarot,"wands")).toStrictEqual([tarot[0]]);

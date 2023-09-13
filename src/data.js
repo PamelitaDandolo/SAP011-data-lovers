@@ -78,6 +78,7 @@ export const suitType = (data, filter) => {
 };
 
 // Para inclusão do cálculo agregado
-// export const calculoAgregado = (dois valores (baralho, id) => {
-//   return ((id / baralho * 100)).toFixed (para retornar uma string com 2 casas decimais(2);
+// export const calculoAgregado = (dois elementos (dataTarot, elementos filtrados) => {
+//   return ((id * 100 / baralho)).toFixed (para retornar uma string com 2 casas decimais(2);
 // }
+
