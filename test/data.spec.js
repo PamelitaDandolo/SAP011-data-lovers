@@ -1,4 +1,4 @@
-import { searchArcane, orderCard, searchSuit } from "../src/data.js";
+import { searchArcane, typeFilter, orderCard,  searchSuit } from "../src/data.js";
 
 const tarot = [
   {
@@ -41,9 +41,25 @@ describe("searchArcane", () => {
     expect(searchArcane(tarot, "minor")).toStrictEqual([tarot[2], tarot[3]]);
   });
 
-  it("returns `search for all cards`", () => {
+  it("returns `search for all object`", () => {
     expect(searchArcane(tarot, "all")).toStrictEqual([tarot[0], tarot[1],tarot[2],tarot[3]]);
   });
+});
+
+
+describe("typeFilter", () => {
+  it("is a function", () => {
+    expect(typeof typeFilter).toBe("function");
+  });
+
+  it("returns `filter only the cards`", () => {
+    expect(typeFilter(tarot, "all")).toStrictEqual([tarot[0],tarot[1],tarot[2],tarot[3]]);
+  });
+
+  it("returns `filter cards when filtered`", () => {
+    expect(typeFilter(tarot, "all")).toEqual([tarot[0],tarot[1],tarot[2],tarot[3]]);
+  });
+
 });
 
 
@@ -92,7 +108,6 @@ describe("searchSuit", () => {
   it("returns `search for all suits`", () => {
     expect(searchSuit(tarot, "all")).toStrictEqual([tarot[0], tarot[1],tarot[2],tarot[3]]);
   });
-
 
 });
 

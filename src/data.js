@@ -6,7 +6,7 @@
 //   return 'OMG';
 // };
 
-export const searchArcane = (dataTarot, type) => {
+export const searchArcane = (dataTarot, type) => { //retorna todo o objeto sem fazer alterações
   if (type === "all") {
     return dataTarot;
   }
@@ -17,7 +17,7 @@ export const searchArcane = (dataTarot, type) => {
   return filteredType;
 };
 
-export const typeFilter = (data, filter) => {
+export const typeFilter = (data, filter) => {//filtragem mais detalhada
   if (filter === "all") {
     return data;
   } else {
