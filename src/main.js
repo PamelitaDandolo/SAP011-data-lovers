@@ -3,8 +3,7 @@ import { searchArcane, searchSuit, orderCard } from './data.js'
 
 import data from './data/tarot/tarot.js' ;
 
-//mostrar a carta no html 
-const cardsContainer = document.querySelector("#cards-container"); //chamando pela classe usa o . e pelo id #
+const cardsContainer = document.querySelector("#cards-container");
 const dataTarot = data.cards;
 function exposeCards(data){
 
