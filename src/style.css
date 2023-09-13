@@ -1,15 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+
 html {
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+    padding: 0;
+    margin: 0; 
 }
 
+<<<<<<< HEAD
 *{
 padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
 
+=======
+>>>>>>> dev
 
 body{
     background-color: black;
@@ -18,6 +30,7 @@ body{
     background-size: cover;
     background-image: url("img/vodu.jpg");
 }
+<<<<<<< HEAD
 
 .logo{
     height: 100px;
@@ -32,6 +45,26 @@ background-color: #1c0332;
 display: flex;
 align: center;
 justify-content: space-around;
+=======
+
+.audio{
+    width: 20%;
+    height: 20%;
+    
+}
+
+.container-logo-menu{ /* header*/
+    background-color: #1c0332;
+    width: 100%;
+    height: 100px;
+    padding: 0px 50px;
+    /* position: fixed; */
+    top:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999; /*prioriza o posicionamento*/
+>>>>>>> dev
 }
 
 /* audio{ 
@@ -41,6 +74,7 @@ width: 1000;
 height: 600;
 } */
 
+<<<<<<< HEAD
 .container{
 display: flex;
 align-items: center;
@@ -57,9 +91,346 @@ menu{
     }
 
 footer{
+=======
+#logo{  /*id usa-se # para identificar*/
+    height: 200px;
+    width:200px;
+    align-items:left;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+        
+menu{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.menu li {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: "Constantia";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 2px 2px;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+
+.menu li:hover{
+    background-color: rgba(90, 90, 90, 0.4);
+}
+
+main{
+    display:flex;
+    /* flex-direction: column-reverse; */
+    align-content: center;
+    gap: 30px;
+
+}
+
+.filter-container{
+    background-color: rgba(34, 33, 33, 0.5);   
+    margin-top: 150px;
+    width:300px;
+    height:400px;
+    padding:30px;
+    top: 60px; left: 30px; 
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    position:sticky;
+    flex-direction:column;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+.filter-container h3{
+    color:antiquewhite;
+    font-size: 20px;
+    font-family:"Constantia";
+    text-align:center;
+
+}
+
+#numerical-order {
+    padding: 5px;
+    border-bottom: 5px solid #1c0332;
+    color:#1c0332;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:#d5baec
+    
+}
+
+#arcane-filter{
+    padding: 5px;
+    border-bottom: 5px solid #1c0332;
+    color:#1c0332;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:#d5baec
+
+}
+
+#tarot-deck{
+    padding: 5px;
+    border-bottom: 5px solid #1c0332;
+    color:#1c0332;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:#d5baec
+ 
+}
+
+#statistics{
+    color: antiquewhite;
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(43, 27, 61);
+    text-align:center;
+  
+}
+
+.footer{
+    background-color: #1c0332;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+    position: absolute;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+
+}
+
+.links li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.links li a{
+    text-decoration: none;
+>>>>>>> dev
     font-family: Arial, Helvetica, sans-serif;
     color:antiquewhite;
-    font-weight: bold;
+    font-size: 10px;
+    padding: 8px 8px;
+    text-align: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    display: flex;
+} 
+
+
+
+
+/* media query  dispositivos móveis*/
+@media screen and (max-width: 480px){
+
+    .container-logo-menu{ /* header*/
+       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 999; /*prioriza o posicionamento*/
+
+    }
+
+
+    #logo{  
+        width:80px;
+        height: 80px;
+        
+    
+    }
+    
+    .audio{
+        width: 60%;
+        height: 15%;
+        
+    }
+    
+    main{
+        display:flex;
+        flex-direction: column;
+        
+
+    }
+    
+    .filter-container{
+        width:250px;
+        height:150px;
+        padding:20px;
+        margin-top:10px;
+        margin-left:55px;
+        row-gap: 5px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        
+        
+    }
+    
+    .filter-container h3{
+        font-size: 12px;
+        text-align:center;
+        margin-top: 5px;
+       
+    
+    }
+    #numerical-order {
+        padding: 3px;
+        height: 40px;
+        width: 100px;
+
+    }
+    
+    #arcane-filter{
+        padding: 3px;
+        height: 40px;
+        width: 100px;
+    
+    }
+    
+    #tarot-deck{
+        padding: 4px;
+        height: 40px;
+        width: 100px;
+     
+    }
+    
+    #statistics{
+        font-size:12px;
+        text-align:left;
+      
+    }
+    
+    .footer{
+        justify-content: space-around;
+        padding: 10px 10px;
+        position: absolute;
+        width: 100%;
+        position: fixed;
+        align-items: center;
+    
+    }
+    
+    .links li{
+        display: inline-block;
+        margin: 0 5px;
+    
+    }
+    
+    .links li a{
+        font-size: 10px;
+        padding: 8px 8px;
+       
+    }
+    
+    
+    }
+    
+    
+
+
+
+/* media query  ipads tablets
+@media screen and (max-width: 796px){
+.container-logo-menu{
+    width:50%;
+    height:50%;
+    position:sticky;
+    justify-content:space-around;
+    align-items:center;
+}
+
+#logo{  
+    height: 3%;
+    width:3%;
+    margin-top: 0%;
+    
+}
+
+ .audio{
+    width: 5%;
+    height: 5%;
+    
+ } 
+
+
+.filter-container{
+    margin-top: 150px;
+    width:100px;
+    height:300px;
+    padding:30px;
+    top: 40px; left: 40px; 
+    row-gap: 30px;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+.filter-container h3{
     font-size: 15px;
     text-align:center;
+
 }
+#value {
+    padding: 3px;
+    height: 40px;
+    width: 100px;
+    
+}
+
+#arcane-filter{
+    padding: 4px;
+    height: 40px;
+    width: 140px;
+
+}
+
+#suit{
+    padding: 4px;
+    height: 40px;
+    width: 140px;
+ 
+}
+
+#statistics{
+    font-size:12px;
+    text-align:left;
+  
+}
+
+.footer{
+    justify-content: space-around;
+    padding: 5px 5px;
+  
+    width: 100%;
+    position: fixed;
+    align-items:flex-start;
+
+}
+
+.links li{
+    display: inline-block;
+    margin: 0 5px;
+
+}
+
+    .links li a{
+    font-size: 10px;
+    padding: 5px 5px;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+
+} */
+

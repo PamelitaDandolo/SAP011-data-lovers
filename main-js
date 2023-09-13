@@ -1,0 +1,113 @@
+[33m3c2eba7[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m HEAD@{0}: checkout: moving from tarot-txt to dev
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{1}: checkout: moving from estilo to tarot-txt
+[33m3902a37[m[33m ([m[1;32mestilo[m[33m)[m HEAD@{2}: commit: pasta de estilo para o texto
+[33m2e2b96c[m HEAD@{3}: commit: construindo a caixa que receberá as cartas
+[33m7a7c72c[m HEAD@{4}: checkout: moving from tarot-txt to estilo
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{5}: checkout: moving from dev to tarot-txt
+[33m3c2eba7[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m HEAD@{6}: checkout: moving from tarot-txt to dev
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{7}: checkout: moving from estilo to tarot-txt
+[33m7a7c72c[m HEAD@{8}: checkout: moving from estilo to estilo
+[33m7a7c72c[m HEAD@{9}: checkout: moving from tarot-txt to estilo
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{10}: checkout: moving from estilo to tarot-txt
+[33m7a7c72c[m HEAD@{11}: checkout: moving from tarot-txt to estilo
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{12}: checkout: moving from estilo to tarot-txt
+[33m7a7c72c[m HEAD@{13}: checkout: moving from main-js to estilo
+[33mfb09ec9[m HEAD@{14}: checkout: moving from estilo to main-js
+[33m7a7c72c[m HEAD@{15}: checkout: moving from tarot-txt to estilo
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{16}: checkout: moving from main to tarot-txt
+[33m44e1af7[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{17}: checkout: moving from estilo to main
+[33m7a7c72c[m HEAD@{18}: checkout: moving from main-js to estilo
+[33mfb09ec9[m HEAD@{19}: checkout: moving from estilo to main-js
+[33m7a7c72c[m HEAD@{20}: checkout: moving from tarot-txt to estilo
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{21}: checkout: moving from dev to tarot-txt
+[33m3c2eba7[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m HEAD@{22}: checkout: moving from main to dev
+[33m44e1af7[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{23}: checkout: moving from tarot-txt to main
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{24}: checkout: moving from main-js to tarot-txt
+[33mfb09ec9[m HEAD@{25}: checkout: moving from estilo to main-js
+[33m7a7c72c[m HEAD@{26}: checkout: moving from tarot-txt to estilo
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{27}: checkout: moving from main-js to tarot-txt
+[33mfb09ec9[m HEAD@{28}: checkout: moving from tarot-txt to main-js
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{29}: checkout: moving from main-js to tarot-txt
+[33mfb09ec9[m HEAD@{30}: checkout: moving from estilo to main-js
+[33m7a7c72c[m HEAD@{31}: commit: exemplos de filtro
+[33me37016b[m HEAD@{32}: checkout: moving from main-js to estilo
+[33mfb09ec9[m HEAD@{33}: checkout: moving from estilo to main-js
+[33me37016b[m HEAD@{34}: commit: arcano 0 adicionado
+[33m080645a[m HEAD@{35}: checkout: moving from main-js to estilo
+[33mfb09ec9[m HEAD@{36}: checkout: moving from estilo to main-js
+[33m080645a[m HEAD@{37}: commit: img de arcano do texto adicionado a a img
+[33m68bdaaf[m HEAD@{38}: commit: tarot text.html criado
+[33md138794[m HEAD@{39}: checkout: moving from main-js to estilo
+[33mfb09ec9[m HEAD@{40}: checkout: moving from estilo to main-js
+[33md138794[m HEAD@{41}: commit: copiei para pasta estilo alterações feitas na branch main-js que será deletada
+[33m5057f70[m HEAD@{42}: checkout: moving from main-js to estilo
+[33mfb09ec9[m HEAD@{43}: checkout: moving from estilo to main-js
+[33m5057f70[m HEAD@{44}: commit: pasta de estilos para main
+[33m6cf973a[m HEAD@{45}: checkout: moving from main-js to estilo
+[33mfb09ec9[m HEAD@{46}: checkout: moving from estilo to main-js
+[33m6cf973a[m HEAD@{47}: checkout: moving from main-js to estilo
+[33mfb09ec9[m HEAD@{48}: checkout: moving from estilo to main-js
+[33m6cf973a[m HEAD@{49}: checkout: moving from main-js to estilo
+[33mfb09ec9[m HEAD@{50}: checkout: moving from estilo to main-js
+[33m6cf973a[m HEAD@{51}: checkout: moving from dev to estilo
+[33m3c2eba7[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m HEAD@{52}: checkout: moving from main-js to dev
+[33mfb09ec9[m HEAD@{53}: commit: pasta css para o tarot-text
+[33mb7ac7bf[m HEAD@{54}: commit: nova pasta de css para o main.js
+[33m9f21b5c[m HEAD@{55}: commit: pequenas mudanças no texto
+[33m27b5c31[m HEAD@{56}: commit: editei alguns estilos
+[33med6813b[m HEAD@{57}: commit: estudando como trazer a carta
+[33m94ed197[m HEAD@{58}: commit: testando como trazer a carta
+[33m9d95673[m HEAD@{59}: commit: adicionei section e class para card container
+[33m96febb2[m HEAD@{60}: commit: adicionei novo link para img do arcano 0
+[33m0351f4e[m HEAD@{61}: checkout: moving from estilo to main-js
+[33m6cf973a[m HEAD@{62}: checkout: moving from dev to estilo
+[33m3c2eba7[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m HEAD@{63}: checkout: moving from main-js to dev
+[33m0351f4e[m HEAD@{64}: commit: alterações em estilo
+[33m04407ba[m HEAD@{65}: commit: esboços de algumas variáveis
+[33mca0c61e[m HEAD@{66}: commit: div para card container
+[33m0d4bc93[m HEAD@{67}: commit: img do arcano 0
+[33mccc1c83[m[33m ([m[1;31morigin/main-js[m[33m)[m HEAD@{68}: commit: adicionei o link da img do arcano 0
+[33mfd18efd[m HEAD@{69}: commit: espaço na sction cards que vai receber as cartas
+[33m7b9f3ee[m HEAD@{70}: commit: arcano 0 que foi deletado sem querer
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{71}: checkout: moving from tarot-txt to main-js
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{72}: checkout: moving from estilo to tarot-txt
+[33m6cf973a[m HEAD@{73}: checkout: moving from dev to estilo
+[33m3c2eba7[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m HEAD@{74}: checkout: moving from main-js to dev
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{75}: checkout: moving from main-js to main-js
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{76}: checkout: moving from tarot-txt to main-js
+[33med1784b[m[33m ([m[1;31morigin/tarot-txt[m[33m, [m[1;32mtarot-txt[m[33m)[m HEAD@{77}: commit: img card about
+[33ma6b6131[m HEAD@{78}: commit: texto, imagen da carta e texto sobre
+[33m3c2eba7[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m HEAD@{79}: checkout: moving from dev to tarot-txt
+[33m3c2eba7[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m HEAD@{80}: checkout: moving from main to dev
+[33m44e1af7[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{81}: checkout: moving from estilo to main
+[33m6cf973a[m HEAD@{82}: checkout: moving from estilo to estilo
+[33m6cf973a[m HEAD@{83}: commit: estilo do footer, links dos repositórios
+[33m141257e[m HEAD@{84}: commit: adicionei links dos repositórios github
+[33m7ad86f6[m[33m ([m[1;31morigin/estilo[m[33m)[m HEAD@{85}: commit: adicionei imagem do ícone github
+[33me702151[m HEAD@{86}: commit: corrigimos erro no footer e editamos o tamanho das fontes
+[33maacaa07[m HEAD@{87}: commit: adicionei mais uma música a pasta audio
+[33mc44d389[m HEAD@{88}: checkout: moving from main to estilo
+[33m44e1af7[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{89}: checkout: moving from estilo to main
+[33mc44d389[m HEAD@{90}: commit: pasta imagens
+[33m63733e3[m HEAD@{91}: checkout: moving from main to estilo
+[33m44e1af7[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{92}: commit: pasta com imagens de fundo, logo e favico
+[33m39c2262[m HEAD@{93}: commit: pasta de audios
+[33m83bf4a7[m HEAD@{94}: commit: adicionei algumas alterações no estilo da página principal
+[33mb7fc3e2[m HEAD@{95}: commit: adicionei os arquivos de imagem e audio
+[33m0132d97[m HEAD@{96}: checkout: moving from estilo to main
+[33m63733e3[m HEAD@{97}: checkout: moving from estilo to estilo
+[33m63733e3[m HEAD@{98}: commit: adicionamos medidas ao html
+[33mde3f10a[m HEAD@{99}: commit: adicionamos uma class container ao header
+[33m0132d97[m HEAD@{100}: checkout: moving from main to estilo
+[33m0132d97[m HEAD@{101}: checkout: moving from estilo to main
+[33m0132d97[m HEAD@{102}: checkout: moving from main to estilo
+[33m0132d97[m HEAD@{103}: checkout: moving from dev to main
+[33m3c2eba7[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m HEAD@{104}: commit: estrutura básica do html para página extra do tarot
+[33m0132d97[m HEAD@{105}: checkout: moving from main to dev
+[33m0132d97[m HEAD@{106}: commit: página html para texto sobre tarot
+[33m7b94e7a[m HEAD@{107}: commit: primeiras configurações de estilo
+[33meec6700[m HEAD@{108}: commit: removi imports d eoutros temas
+[33m184943b[m HEAD@{109}: commit: html básico
+[33m717cd91[m HEAD@{110}: commit: deletei temas
+[33mf93087f[m HEAD@{111}: commit: deletei pastas data de outros temas
+[33m4048de6[m HEAD@{112}: clone: from github.com:PamelitaDandolo/SAP011-data-lovers.git
