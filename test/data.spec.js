@@ -1,5 +1,5 @@
 
-import { searchArcane, typeFilter, orderCard,  searchSuit } from "../src/data.js";
+import { searchArcane, typeFilter, orderCard,  searchSuit, suitType } from "../src/data.js";
 
 
 const tarot = [
@@ -63,6 +63,11 @@ describe("typeFilter", () => {
     expect(typeFilter(tarot, "all")).toEqual([tarot[0],tarot[1],tarot[2],tarot[3]]);
   });
 
+  //linha 24 retorna data, ou seja, todo o objeto
+  it("returns `empty`", () => {
+    expect(typeFilter(tarot)).toStrictEqual([]);
+  });
+
 });
 
 
@@ -84,6 +89,12 @@ describe("orderCard", () => {
   it("returns `search for all cards`", () => {
     expect(orderCard(tarot, "all")).toStrictEqual([tarot[0], tarot[1],tarot[2],tarot[3]]);
   });
+
+  //linha 34
+  it("returns `same order`", () => {
+    expect(orderCard([tarot[0], tarot[0]], "all")).toStrictEqual([tarot[0], tarot[0]]);
+  });
+
 });
 
 
@@ -92,7 +103,6 @@ describe("searchSuit", () => {
   it("is a function", () => {
     expect(typeof searchSuit).toBe("function");
   });
-
 
   it("returns `filter wands`", () => {
     expect(searchSuit(tarot,"wands")).toStrictEqual([tarot[0]]);
@@ -114,7 +124,27 @@ describe("searchSuit", () => {
     expect(searchSuit(tarot, "all")).toStrictEqual([tarot[0], tarot[1],tarot[2],tarot[3]]);
   });
 
+  //linha 58
+  it("returns `empty`", () => {
+    expect(searchSuit([{name: "the fool"}])).toStrictEqual([]);
+  });
+
 });
 
+describe("suitType", () => {
+  it("is a function", () => {
+    expect(typeof suitType).toBe("function");
+  });
 
-    
+  it("returns `all`", () => {
+    expect(suitType(tarot,"all")).toStrictEqual([tarot[0], tarot[1],tarot[2],tarot[3]]);
+  });
+
+  it("returns `swords cards`", () => {
+    expect(suitType(tarot,"swords")).toStrictEqual([tarot[2]]);
+  });
+
+  it("returns `empty`", () => {
+    expect(suitType([{name: "the fool"}])).toStrictEqual([]);
+  });
+});
